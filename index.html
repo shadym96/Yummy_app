@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+    <body id="body-pd" >
+        <header class="header" id="header">
+            <div class="header_toggle"> <i class="fa-solid fa-bars" style="color: #4723d9;" id="header-toggle"></i> </div>
+        </header>
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                
+                    <div class="nav_list"> <a href="#"  class="nav_link active "  > <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name" id="ser">Search</span> </a> <a href="#" class="nav_link" > <i class='bx bx-user nav_icon'></i> <span class="nav_name" id="mycateg">Categories</span> </a> <a href="#" class="nav_link" > <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name" id="MyArea">Area</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name" id="Ing">Ingredient</span> </a> <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name" id="contact">Contact Us</span> </a>  
+                    
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                    <p>Copyright Â© 2019 All Rights
+                        Reserved.</p>
+                    </div>
+            
+            </nav>
+        </div>
+        <div class="loding">
+            <i class="fa-solid fa-spinner fa-spin fa-3x "></i>
+        </div>
+
+        <div class=" Home container py-5 px-5">
+            <div class="row gy-3 " id="dinner">
+                
+            </div>
+        </div>
+        <div class="search">
+            <div class="container w-75 ">
+                <div class="  d-flex justify-content-around py-4">
+                    <input type="text" placeholder="search by name" class="form-control " id="byName">
+            <input type="text" placeholder="search by first letter" class="form-control " id="byFL" maxlength="1">
+    
+                </div>
+            </div>
+            <div class=" container py-3 px-5">
+                <div class="row gy-3" id="myMeal">
+                    
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="category">
+            <div class="container py-3 px-5 w-75">
+                <div class="row gy-3 " id="categories" >
+                    
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="area">
+            <div class="container py-3 px-5 w-75 ">
+                <div class="row gy-3 " id="Area" >
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="ingrediant">
+            <div class="container py-3 px-5 w-75">
+                <div class="row gy-3 " id="Ingred" >
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="contactUs">
+            <div class="container w-75 py-5">
+                <div class="  d-flex justify-content-around py-3 ">
+                    <input type="text" placeholder="Enter your name" class="form-control " id="userName">
+                    <div id="user"></div>
+                     <input type="email" placeholder="Enter your Email" class="form-control " id="userEmail" >
+                     <div id="mail"></div>
+                    
+
+                </div>
+                <div class="  d-flex justify-content-around py-3 ">
+                    <input type="tel" placeholder="Enter your phone"  class="form-control " id="userPhone">
+                    <div id="phone"></div>
+
+
+                     <input type="text" placeholder="Enter your age" class="form-control " id="userAge" >
+                    <div id="age"></div>
+
+                </div>
+                <div class="  d-flex justify-content-around py-3 ">
+                    <input type="password" placeholder="Enter your password" class="form-control " id="userPass">
+                    <div id="pass"></div>
+
+                     <input type="password" placeholder="Repassword" class="form-control " id="RePass" >
+                    <div id="repas"></div>
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="btn btn-dark disabled " id="btns">submit</button>
+
+                </div>
+
+    
+                </div>
+            </div>
+        </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
